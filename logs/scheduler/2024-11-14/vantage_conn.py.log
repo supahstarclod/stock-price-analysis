@@ -1,0 +1,30 @@
+[2024-11-14T22:24:30.345+0000] {processor.py:161} INFO - Started process (PID=2753) to work on /opt/airflow/dags/vantage_conn.py
+[2024-11-14T22:24:30.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/vantage_conn.py for tasks to queue
+[2024-11-14T22:24:30.347+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:30.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/vantage_conn.py
+[2024-11-14T22:24:30.378+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:30.378+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-11-14T22:24:30.379+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:30.379+0000] {connection.py:399} INFO - Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-11-14T22:24:30.380+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:30.380+0000] {connection.py:1239} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-14T22:24:30.881+0000] {processor.py:840} INFO - DAG(s) 'vantage_conn_to_snowflake' retrieved from /opt/airflow/dags/vantage_conn.py
+[2024-11-14T22:24:30.959+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:30.959+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-14T22:24:30.976+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:30.976+0000] {dag.py:3954} INFO - Setting next_dagrun for vantage_conn_to_snowflake to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T22:24:30.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/vantage_conn.py took 0.656 seconds
+[2024-11-14T22:25:01.499+0000] {processor.py:161} INFO - Started process (PID=2769) to work on /opt/airflow/dags/vantage_conn.py
+[2024-11-14T22:25:01.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/vantage_conn.py for tasks to queue
+[2024-11-14T22:25:01.501+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:01.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/vantage_conn.py
+[2024-11-14T22:25:01.532+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:01.532+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-11-14T22:25:01.534+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:01.533+0000] {connection.py:399} INFO - Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-11-14T22:25:01.534+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:01.534+0000] {connection.py:1239} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-14T22:25:02.106+0000] {processor.py:840} INFO - DAG(s) 'vantage_conn_to_snowflake' retrieved from /opt/airflow/dags/vantage_conn.py
+[2024-11-14T22:25:02.199+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:02.198+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-14T22:25:02.220+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:02.220+0000] {dag.py:3954} INFO - Setting next_dagrun for vantage_conn_to_snowflake to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T22:25:02.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/vantage_conn.py took 0.751 seconds
+[2024-11-14T22:25:32.759+0000] {processor.py:161} INFO - Started process (PID=2785) to work on /opt/airflow/dags/vantage_conn.py
+[2024-11-14T22:25:32.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/vantage_conn.py for tasks to queue
+[2024-11-14T22:25:32.761+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:32.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/vantage_conn.py
+[2024-11-14T22:25:32.795+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:32.795+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-11-14T22:25:32.796+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:32.796+0000] {connection.py:399} INFO - Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2024-11-14T22:25:32.797+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:32.797+0000] {connection.py:1239} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-14T22:25:33.266+0000] {processor.py:840} INFO - DAG(s) 'vantage_conn_to_snowflake' retrieved from /opt/airflow/dags/vantage_conn.py
+[2024-11-14T22:25:33.347+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:33.347+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-14T22:25:33.366+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:33.366+0000] {dag.py:3954} INFO - Setting next_dagrun for vantage_conn_to_snowflake to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-14T22:25:33.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/vantage_conn.py took 0.629 seconds

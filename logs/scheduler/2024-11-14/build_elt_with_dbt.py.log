@@ -1,0 +1,16 @@
+[2024-11-14T22:24:54.447+0000] {processor.py:161} INFO - Started process (PID=2764) to work on /opt/airflow/dags/build_elt_with_dbt.py
+[2024-11-14T22:24:54.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/build_elt_with_dbt.py for tasks to queue
+[2024-11-14T22:24:54.450+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:54.449+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/build_elt_with_dbt.py
+[2024-11-14T22:24:54.475+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:54.474+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-11-14T22:24:54.481+0000] {processor.py:840} INFO - DAG(s) 'build_elt_dbt' retrieved from /opt/airflow/dags/build_elt_with_dbt.py
+[2024-11-14T22:24:54.491+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:54.491+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-14T22:24:54.515+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:24:54.514+0000] {dag.py:3954} INFO - Setting next_dagrun for build_elt_dbt to 2024-11-14 00:20:00+00:00, run_after=2024-11-15 00:20:00+00:00
+[2024-11-14T22:24:54.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/build_elt_with_dbt.py took 0.089 seconds
+[2024-11-14T22:25:24.702+0000] {processor.py:161} INFO - Started process (PID=2780) to work on /opt/airflow/dags/build_elt_with_dbt.py
+[2024-11-14T22:25:24.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/build_elt_with_dbt.py for tasks to queue
+[2024-11-14T22:25:24.704+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:24.704+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/build_elt_with_dbt.py
+[2024-11-14T22:25:24.733+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:24.733+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-11-14T22:25:24.739+0000] {processor.py:840} INFO - DAG(s) 'build_elt_dbt' retrieved from /opt/airflow/dags/build_elt_with_dbt.py
+[2024-11-14T22:25:24.749+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:24.749+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-14T22:25:24.768+0000] {logging_mixin.py:188} INFO - [2024-11-14T22:25:24.767+0000] {dag.py:3954} INFO - Setting next_dagrun for build_elt_dbt to 2024-11-14 00:20:00+00:00, run_after=2024-11-15 00:20:00+00:00
+[2024-11-14T22:25:24.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/build_elt_with_dbt.py took 0.086 seconds
